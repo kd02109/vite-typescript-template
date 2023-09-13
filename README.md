@@ -1,10 +1,34 @@
-# mbtmi
-- 기존의 O,X 선택지에서 벗어나 정확도가 높은 대화형 mbti app 구현을 목표로 합니다.
+# vite-TS template
+- typeScript를 기반으로 하는 vite 템플릿 입니다. 
+- SPA, CRA 특징을 가진 React에서 기본으로 사용한다고 생각하는 라이브러리를 미리 설정했습니다. 현재 설정한 라이브러리는 다음과 같습니다.
 
-# 👩‍💻팀원 소개
+## 사용 방법
+- 사용 방법은 아래와 같습니다. 
+   1. [degit](https://github.com/Rich-Harris/degit) 레포지토리에 방문하여 안내를 따릅니다. 명령어를 통해 degit을 전역적으로 설치합니다.
+   ```
+      npm install -g degit
+   ```
+   2. 프로젝트를 시작하고자하는 폴더로 이동한 뒤 설치하고자 하는 template을 다음과 같이 설치합니다.
+   ```
+   npx degit kd02109/vite-typescript-template
+   ```
+   3. 성공적으로 수행된 경우 관련 라이브러리를 모두 설치합니다.
+   ```
+    npm i
+    yarn install
+   ```
 
-| 나경훈 | 방미정 | 허채원 | 손준석 | 최진호 |
-| :--------------: | :--------------: | :--------------: |:--------------: | :--------------: | 
-| <img src="https://avatars.githubusercontent.com/u/67286468?v=4" width=150 > | <img src="https://avatars.githubusercontent.com/u/66621920?v=4" width=150 > | <img src="https://avatars.githubusercontent.com/u/91480517?v=4" width=150 > | <img src="https://avatars.githubusercontent.com/u/57277708?v=4" width=150 > | <img src="https://avatars.githubusercontent.com/u/127665625?v=4" width=150 > |
-| [@rudgnsdl06](https://github.com/rudgnsdl06) | [@bangmijung](https://github.com/bangmijung) | [@heorshey](https://github.com/heorshey) | [@kd02109](https://github.com/kd02109) | [@litt77](https://github.com/litt77) |
+## Library
+<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="typescript"/>
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react"/>
+<img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" alt="react router"/>
+<img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm"/>
+<img src="https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white" alt="reactquery"/>
+<img src="https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white" alt="react-hook-form">
+<img src="https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white" alt="esling">
+<img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" alt="vite">
 
+
+## lint 설정
+- lint 설정에서 강제로 lint 검사를 수행하기 위해 lint-staged를 설정하였습니다.
+- 추가적으로 prettier 설정과 eslint-plugin-import 설정을 추가하였습니다.
